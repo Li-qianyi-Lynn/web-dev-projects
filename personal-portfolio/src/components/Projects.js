@@ -1,44 +1,32 @@
-import { Container, Row, Col, Tab, Nav } from "react-bootstrap";
-import { ProjectCard } from "./ProjectCard";
+import 'animate.css';
+import { Col, Container, Nav, Row, Tab } from "react-bootstrap";
+import TrackVisibility from 'react-on-screen';
+import colorSharp2 from "../assets/img/color-sharp2.png";
 import projImg1 from "../assets/img/project-img1.png";
 import projImg2 from "../assets/img/project-img2.png";
 import projImg3 from "../assets/img/project-img3.png";
-import colorSharp2 from "../assets/img/color-sharp2.png";
-import 'animate.css';
-import TrackVisibility from 'react-on-screen';
+import { ProjectCard } from "./ProjectCard";
 
 export const Projects = () => {
 
   const projects = [
     {
-      title: "Business Startup",
-      description: "Design & Development",
+      title: "SnappyLink",
+      description: "This is a project I implemented a Flask-based python web framework to build RESTful API, redirect users to original long url by short links and corresponding QR codes",
       imgUrl: projImg1,
+      link: "http://i16k.com/",
     },
     {
-      title: "Business Startup",
-      description: "Design & Development",
+      title: "Lynn & Her Cats",
+      description: "This website is a collection of photos and stories about my cats that I have cared for. Each cat has its own story, and I hope this website will help you understand their habits",
       imgUrl: projImg2,
+      link: "https://lynn-cats-web.vercel.app/",
     },
     {
-      title: "Business Startup",
-      description: "Design & Development",
+      title: "SceneSound",
+      description: "SceneSound is an AI Music Recommendation App that analyzes user-uploaded images or input text to identify emotions and scenes, then recommends matching music playlists",
       imgUrl: projImg3,
-    },
-    {
-      title: "Business Startup",
-      description: "Design & Development",
-      imgUrl: projImg1,
-    },
-    {
-      title: "Business Startup",
-      description: "Design & Development",
-      imgUrl: projImg2,
-    },
-    {
-      title: "Business Startup",
-      description: "Design & Development",
-      imgUrl: projImg3,
+      link: "https://github.com/Li-qianyi-Lynn/SceneSound-LynnVersion",
     },
   ];
 
@@ -79,7 +67,7 @@ export const Projects = () => {
                         }
                       </Row>
                     </Tab.Pane>
-                    <Tab.Pane eventKey="section">
+                    <Tab.Pane eventKey="second">
                       <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Cumque quam, quod neque provident velit, rem explicabo excepturi id illo molestiae blanditiis, eligendi dicta officiis asperiores delectus quasi inventore debitis quo.</p>
                     </Tab.Pane>
                     <Tab.Pane eventKey="third">
