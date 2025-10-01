@@ -13,7 +13,7 @@ export const Banner = () => {
 
 
   useEffect(() => {
-    const toRotate = [ "Web Developer", "Web Designer", "UI/UX Designer" ];
+    const toRotate = [ "Java Developer", "Full Stack Developer", "AI software Engineer" ];
     const ticker = setInterval(() => {
       let i = loopNum % toRotate.length;
       let fullText = toRotate[i];
@@ -47,9 +47,9 @@ export const Banner = () => {
               {({ isVisible }) =>
               <div className={isVisible ? "animate__animated animate__fadeIn" : ""}>
                 <span className="tagline">Welcome to my Portfolio</span>
-                <h1>{`Hi! I'm Judy`} <span className="txt-rotate" dataPeriod="1000" data-rotate='[ "Web Developer", "Web Designer", "UI/UX Designer" ]'><span className="wrap">{text}</span></span></h1>
-                  <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p>
-                  <button onClick={() => console.log('connect')}>Let’s Connect <ArrowRightCircle size={25} /></button>
+                <h1>{`Hi! I'm Lynn`} <span className="txt-rotate" dataPeriod="1000" data-rotate='[ "Java Developer", "Full Stack Programmer", "AI Software Engineer" ]'><span className="wrap">{text}</span></span></h1>
+                  <p>Hi~I'm a passionate full-stack software engineer who loves working with Java, Python, and modern frameworks like Spring Boot and FastAPI to build cool microservices and AI-powered applications. I enjoy tackling challenges with cloud platforms (AWS, GCP), distributed systems (Kafka, Redis), and databases, always aiming to create smooth, high-performing solutions that users actually love. I'm constantly learning and exploring new technologies to stay ahead of the curve and bring fresh ideas to every project. </p>
+                  <button onClick={() => document.getElementById('connect')?.scrollIntoView({ behavior: 'smooth' })}>Let's Connect <ArrowRightCircle size={25} /></button>
               </div>}
             </TrackVisibility>
           </Col>
