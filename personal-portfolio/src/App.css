@@ -481,7 +481,9 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
   padding: 60px 0 200px 0;
 }
 .contact img {
-  width: 92%;
+  width: 100%;
+  max-width: 1000px;
+  height: auto;
 }
 .contact h2 {
 	font-size: 45px;
