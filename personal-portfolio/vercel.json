@@ -18,6 +18,9 @@
       "src": "/(.*)",
       "dest": "/index.html"
     }
-  ]
- 
+  ],
+  "env": {
+    "GENERATE_SOURCEMAP": "false",
+    "DISABLE_ESLINT_PLUGIN": "true"
+  }
 }
