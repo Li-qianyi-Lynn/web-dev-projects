@@ -36,19 +36,19 @@ export const Skills = () => {
                         <p>I'm a passionate full-stack software engineer who loves working with Java, Python, and modern frameworks like Spring Boot and FastAPI to build cool microservices and AI-powered applications. I enjoy tackling challenges with cloud platforms (AWS, GCP), distributed systems (Kafka, Redis), and databases, always aiming to create smooth, high-performing solutions that users actually love. I'm constantly learning and exploring new technologies to stay ahead of the curve and bring fresh ideas to every project. </p>
                         <Carousel responsive={responsive} infinite={true} className="owl-carousel owl-theme skill-slider">
                             <div className="item">
-                                <img src={meter1} alt="Image" />
+                                <img src={meter1} alt="Java SpringBoot skill meter" />
                                 <h5>Java-SpringBoot</h5>
                             </div>
                             <div className="item">
-                                <img src={meter2} alt="Image" />
+                                <img src={meter2} alt="Python Flask skill meter" />
                                 <h5>Python-Flask</h5>
                             </div>
                             <div className="item">
-                                <img src={meter3} alt="Image" />
+                                <img src={meter3} alt="React Node skill meter" />
                                 <h5>React-Node</h5>
                             </div>
                             <div className="item">
-                                <img src={meter1} alt="Image" />
+                                <img src={meter1} alt="SQL MongoDB skill meter" />
                                 <h5>SQL-MongoDB</h5>
                             </div>
                         </Carousel>
@@ -56,7 +56,7 @@ export const Skills = () => {
                 </div>
             </div>
         </div>
-        <img className="background-image-left" src={colorSharp} alt="Image" />
+        <img className="background-image-left" src={colorSharp} alt="Background decoration" />
     </section>
   )
 }
